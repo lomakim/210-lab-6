@@ -5,9 +5,9 @@ using namespace std;
 const int SIZE = 5;
 
 //Function Prototypes
-void enterArrayData(double []);
-void outputArrayData(double []);
-double sumArray(double []);
+void enterArrayData(double *arr);
+void outputArrayData(double *arr);
+double sumArray(double *arr);
 
 int main(){
     //Declarations
